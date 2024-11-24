@@ -7,7 +7,7 @@ import Interests from "./components/Interests";
 
 export default function Home() {
 	return (
-		<div className="font-[family-name:var(--font-geist-sans)]">
+		<div className="bg-white dark:bg-gray-900">
 			<Header />
 			<main className="layout--main grid gap-4 p-2">
 				<Profile />

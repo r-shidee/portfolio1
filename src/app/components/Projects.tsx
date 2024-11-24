@@ -15,6 +15,13 @@ const Projects = () => {
 					Fantasy premier league football dashboard using React and Next.js
 					<br />
 					<Link
+						className="underline text-blue-400"
+						href={"https://fpl-24.vercel.app/"}
+					>
+						fpl-24.vercel.app/
+					</Link>
+					<br />
+					<Link
 						href={"https://github.com/r-shidee/fpl-24"}
 						className="underline text-blue-400"
 					>
@@ -24,11 +31,18 @@ const Projects = () => {
 			</div>
 			<div className="p-1 pt-2 flex flex-col gap-1">
 				<h4 className="font-semibold underline">
-					<Link href={"https://fpl-24.vercel.app/"}>sxh wedding</Link>
+					<Link href={"https://sxh-wedding-site.vercel.app/"}>sxh wedding</Link>
 				</h4>
 				<p className="max-w-prose font-mono text-xs">
 					Created a website about my wedding to share with friends and family
 					during covid-19.
+					<br />
+					<Link
+						className="underline text-blue-400"
+						href={"https://sxh-wedding-site.vercel.app/"}
+					>
+						sxh-wedding-site.vercel.app/
+					</Link>
 					<br />
 					<Link
 						href={"https://bitbucket.org/r_shidee/wedding-site/src"}
