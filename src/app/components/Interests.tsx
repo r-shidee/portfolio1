@@ -4,7 +4,7 @@ const Interests = () => {
 	return (
 		<div className="widget widget--interests border border-blue-900 flex flex-col rounded-md">
 			<div className="widget__title bg-blue-900 text-white p-2 font-semibold">
-				shidee's Interests
+				shidee&apos;s Interests
 			</div>
 			<div className="flex flex-col gap-1 p-1">
 				<div className=" gap-1 grid lg:grid-cols-12">

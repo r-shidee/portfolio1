@@ -5,7 +5,7 @@ const Weblinks = () => {
 	return (
 		<div className="widget widget--links border border-blue-900 flex flex-col  rounded-md">
 			<div className="widget__title bg-blue-900 text-white p-2 font-semibold">
-				shidee's Links
+				shidee&apos;s Links
 			</div>
 			<div className="flex flex-col">
 				<div className="p-2 flex items-center">

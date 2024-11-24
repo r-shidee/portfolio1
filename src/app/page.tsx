@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./components/layout/Header";
 import Profile from "./components/Profile";
 import Blurbs from "./components/Blurbs";

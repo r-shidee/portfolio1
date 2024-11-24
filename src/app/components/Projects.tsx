@@ -1,12 +1,11 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 const Projects = () => {
 	return (
 		<div className="widget widget--projects">
 			<div className="widget__title bg-orange-200 p-1 text-red-500 font-semibold">
-				shidee's Projects
+				shidee&apos;s Projects
 			</div>
 			<div className="p-1 pt-2 flex flex-col gap-1">
 				<h4 className="font-semibold underline">
