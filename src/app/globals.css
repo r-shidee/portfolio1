@@ -3,19 +3,73 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ededed;
+	--foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	color: var(--foreground);
+	background: var(--background);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.layout--page {
+	width: 810px;
+	max-width: 100%;
+	margin: 0 auto 10px;
+	display: grid;
+	grid-template-areas:
+		"main"
+		"footer";
+}
+
+.layout--main {
+	grid-template-areas:
+		"profile"
+		"blurbs"
+		"projects"
+		"links"
+		"interests";
+
+	@media only screen and (min-width: 600px) {
+		grid-template-columns: 4fr 6fr;
+		grid-template-areas:
+			"profile blurbs"
+			"interests projects"
+			"links .";
+	}
+}
+
+.main--content {
+	grid-area: main;
+}
+
+.header {
+	background-color: #1d4ed8;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.widget--profile {
+	grid-area: profile;
+}
+
+.widget--blurbs {
+	grid-area: blurbs;
+}
+
+.widget--interests {
+	grid-area: interests;
+}
+.widget--links {
+	grid-area: links;
 }
